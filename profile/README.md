@@ -1,106 +1,100 @@
-<!-- The pictures in assets/ and everything between a :start and an :end marker are redrawn every day by
-     scripts/profile/build.mjs (.github/workflows/profile.yml). Edit the rest by hand. -->
+<!-- The two charts and the line between the numbers markers are redrawn every day by scripts/profile/build.mjs.
+     The rest is written by hand. -->
 
-<p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Samuel's Development: open-source FiveM resources">
-</p>
+I make FiveM resources for Qbox, QBCore, ESX, ox_core and ND, and everything on this page is free. sd-phone is the
+big one, and sd-tablet and sd-computers share its accounts and data. The rest are scripts and tools I've built along
+the way.
 
-<p align="center">
-  Samuel's Development builds FiveM resources for Qbox, QBCore, ESX, ox_core and ND. The open-source ones are
-  here: a phone, a tablet and a desktop that share one set of accounts and data, the library under them, and
-  resources for most of what a server runs. The premium scripts are on the store.
-</p>
+The paid scripts are on the store, and the Discord is the place for questions.
 
-<p align="center">
-  <a href="https://fivem.samueldev.shop"><img src="assets/button-store.svg" height="44" alt="Store"></a>
-  <a href="https://docs.samueldev.shop"><img src="assets/button-docs.svg" height="44" alt="Documentation"></a>
-  <a href="https://discord.gg/FzPehMQaBQ"><img src="assets/button-discord.svg" height="44" alt="Discord"></a>
-  <a href="https://fivem.samueldev.shop/phone"><img src="assets/button-demo.svg" height="44" alt="Live demo"></a>
-</p>
+[![Store](https://img.shields.io/badge/Store-fivem.samueldev.shop-F0E155?style=for-the-badge&labelColor=101114)](https://fivem.samueldev.shop)
+[![Docs](https://img.shields.io/badge/Docs-docs.samueldev.shop-94DD0C?style=for-the-badge&labelColor=101114)](https://docs.samueldev.shop)
+[![Discord](https://img.shields.io/discord/842045164951437383?style=for-the-badge&label=Discord&logo=discord&logoColor=white&labelColor=101114&color=5865F2)](https://discord.gg/FzPehMQaBQ)
 
-<!-- stats:start -->
-<img src="assets/stats.svg" width="100%" alt="62,951 downloads, 1,141 stars, 1,196 commits in the last 12 months, 39 open-source resources, 140 followers">
-<!-- stats:end -->
+<a href="https://github.com/Samuels-Development/sd-phone"><img src="assets/sd-phone.webp" width="100%" alt="sd-phone: the home screen in front of a wall of app screens"></a>
 
-## Featured
+**[sd-phone](https://github.com/Samuels-Development/sd-phone)** is a phone with over 50 apps: calls, messages, mail,
+maps, banking, social apps and games. Scripts written for lb-phone, qs-smartphone, gksphone, roadphone or YSeries keep
+working, and lb-phone and YSeries players can bring their numbers, chats and photos over.
+[Try it in your browser](https://fivem.samueldev.shop/phone).
 
-<!-- featured:start -->
-<p align="center">
-  <a href="https://github.com/Samuels-Development/sd-phone"><img src="assets/card-sd-phone.svg" width="49%" alt="sd-phone: A phone for Qbox, QBCore, ESX, ox_core and ND: calls, messages, mail, maps, banking, social apps and games. Scripts written for lb-phone and the rest keep working."></a>
-  <a href="https://github.com/Samuels-Development/sd-tablet"><img src="assets/card-sd-tablet.svg" width="49%" alt="sd-tablet: An in-game tablet for FiveM, and a companion to sd-phone. Same apps, same accounts, same data, on a bigger screen."></a>
-</p>
+[![Release](https://img.shields.io/github/v/release/Samuels-Development/sd-phone?label=Release&logo=github)](https://github.com/Samuels-Development/sd-phone/releases)
+[![Downloads](https://img.shields.io/github/downloads/Samuels-Development/sd-phone/total?label=Downloads&logo=github)](https://github.com/Samuels-Development/sd-phone/releases)
+[![Stars](https://img.shields.io/github/stars/Samuels-Development/sd-phone?label=Stars&logo=github)](https://github.com/Samuels-Development/sd-phone)
 
-<p align="center">
-  <a href="https://github.com/Samuels-Development/sd-computers"><img src="assets/card-sd-computers.svg" width="49%" alt="sd-computers: SD OS for FiveM: a full desktop on any computer prop or location - mail, System Logs, Command Prompt hacking and a Business Manager"></a>
-  <a href="https://github.com/Samuels-Development/sd_lib"><img src="assets/card-sd_lib.svg" width="49%" alt="sd_lib: The library under the rest: better base natives, and one way to talk to every framework and the popular resources around them."></a>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Samuels-Development/sd-tablet"><img src="assets/sd-tablet.webp" width="100%" alt="sd-tablet's home screen, in front of the tablet backs in every colour"></a>
+<p><b><a href="https://github.com/Samuels-Development/sd-tablet">sd-tablet</a></b> has sd-phone's apps, accounts and data on a bigger screen.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Samuels-Development/sd-computers"><img src="assets/sd-computers.webp" width="100%" alt="sd-computers: three desktop looks, 18 apps and 10 hacking minigames"></a>
+<p><b><a href="https://github.com/Samuels-Development/sd-computers">sd-computers</a></b> puts a desktop on any computer in the city, with mail, logs, a command prompt to hack from and a business manager.</p>
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <a href="https://github.com/Samuels-Development/sd-policeradar"><img src="assets/card-sd-policeradar.svg" width="49%" alt="sd-policeradar: A police radar: speeds in MPH and KMH and plates, ahead and behind. Lock it, keep a log of what it caught, and set BOLOs."></a>
-  <a href="https://github.com/Samuels-Development/sd-zonecreator"><img src="assets/card-sd-zonecreator.svg" width="49%" alt="sd-zonecreator: Draw zones on an interactive map with a live 3D preview in the game, and export them in the format your script wants."></a>
-</p>
-<!-- featured:end -->
+## Everything else
+
+### Around the phone
+
+- [**sd-phone-props**](https://github.com/Samuels-Development/sd-phone-props) streams the phone in the player's hand, one model per colour, plain or foldable. [**sd-tablet-props**](https://github.com/Samuels-Development/sd-tablet-props) does the same for the tablet.
+- [**sd-phone-app-templates**](https://github.com/Samuels-Development/sd-phone-app-templates) and [**sd-computers-app-templates**](https://github.com/Samuels-Development/sd-computers-app-templates) are starting points for your own apps, in plain JS, React, Vue or Svelte.
+
+### Jobs, crime and things to do
+
+- [**sd-policeradar**](https://github.com/Samuels-Development/sd-policeradar) reads the speed and plate of the cars ahead and behind, with a lock, a log and BOLOs.
+- [**sd-policetape**](https://github.com/Samuels-Development/sd-policetape) is police tape that sags, sways in the wind and tears when a car drives through it.
+- [**sd-parceltheft**](https://github.com/Samuels-Development/sd-parceltheft) lets players steal parcels off doorsteps and open them for whatever's inside.
+- [**sd-cases**](https://github.com/Samuels-Development/sd-cases) gives out cases from heists and robberies, opened on a spinning wheel.
+- [**sd-selfstorage**](https://github.com/Samuels-Development/sd-selfstorage) rents out storage units, with payments that renew themselves and keys you can share.
+- [**sd-christmas**](https://github.com/Samuels-Development/sd-christmas) hides candy canes in over 150 places around the city, and puts Santa in it.
+- [**sd-minesweeper**](https://github.com/Samuels-Development/sd-minesweeper) is Minesweeper played for money, and [**sd-simonsays**](https://github.com/Samuels-Development/sd-simonsays) is Simon Says.
+
+### For players
+
+- [**sd-signs**](https://github.com/Samuels-Development/sd-signs) builds 3D letter signs: type it, colour it, place it.
+- [**sd-vehcontrol**](https://github.com/Samuels-Development/sd-vehcontrol) is one menu for seats, engine, doors, windows and lights.
+- [**sd-speedlimiter**](https://github.com/Samuels-Development/sd-speedlimiter) holds your car at the speed you're doing, without fighting the handling.
+- [**sd-waypoints**](https://github.com/Samuels-Development/sd-waypoints) stands a 3D marker on your map waypoint, with the distance to it.
+- [**sd-3dme**](https://github.com/Samuels-Development/sd-3dme) shows /me, /do, /med and /animal over the player's head.
+- [**sd-levels**](https://github.com/Samuels-Development/sd-levels) tracks skills and levels, and shows them.
+- [**sd-reviews**](https://github.com/Samuels-Development/sd-reviews) lets players review businesses and places.
+
+### For building a server
+
+- [**sd_lib**](https://github.com/Samuels-Development/sd_lib) puts the frameworks and the popular resources behind one set of functions.
+- [**sd-zonecreator**](https://github.com/Samuels-Development/sd-zonecreator) draws zones on a map, previews them in 3D and exports them in the format you need.
+- [**sd-itemspawner**](https://github.com/Samuels-Development/sd-itemspawner) spawns any ox_inventory item, to you, a player, everyone nearby or the whole server.
+- [**sd-density**](https://github.com/Samuels-Development/sd-density) sets how many people and cars there are, by zone and by time of day.
+- [**sd-dialog**](https://github.com/Samuels-Development/sd-dialog) turns talking to an NPC into a scene, with camera moves and options.
+- [**sd-notify**](https://github.com/Samuels-Development/sd-notify) and [**sd-objective**](https://github.com/Samuels-Development/sd-objective) are notifications and an objective tracker, for your own scripts.
+- [**sd-creator**](https://github.com/Samuels-Development/sd-creator) writes new items and jobs from a form in the game.
+- [**ox_inventory**](https://github.com/Samuels-Development/ox_inventory) is a rebuilt interface for ox_inventory, with equipment slots, backpacks and rarities. [**ox_target**](https://github.com/Samuels-Development/ox_target) targets with the cursor instead of the eye.
+
+The older and smaller ones are in the [list of repositories](https://github.com/orgs/Samuels-Development/repositories).
 
 ## Activity
 
-<img src="assets/commits.svg" width="100%" alt="Commits to the public repositories, by day, over the last 12 months">
-<img src="assets/downloads.svg" width="100%" alt="Release downloads, by resource">
-<img src="assets/stars.svg" width="100%" alt="Stars across every repository, over time">
+<!-- numbers:start -->
+62,951 downloads and 1,150 stars across 39 resources, and 1,215 commits in the last year.
+<!-- numbers:end -->
 
-<!-- resources:start -->
-<details>
-<summary><b>All 39 public resources</b>, with their stars, downloads and latest release</summary>
-<br>
+### Stars
 
-| Resource | What it is | Stars | Downloads | Release |
-|---|---|--:|--:|---|
-| [**sd-phone**](https://github.com/Samuels-Development/sd-phone) | A phone for Qbox, QBCore, ESX, ox_core and ND: calls, messages, mail, maps, banking, social apps and games. Scripts written for lb-phone and the rest keep working. | 169 | 55,840 | `v1.0.9` |
-| [**sd-zonecreator**](https://github.com/Samuels-Development/sd-zonecreator) | Draw zones on an interactive map with a live 3D preview in the game, and export them in the format your script wants. | 67 | 1,625 | `v1.0.0` |
-| [**sd-tablet**](https://github.com/Samuels-Development/sd-tablet) | An in-game tablet for FiveM, and a companion to sd-phone. Same apps, same accounts, same data, on a bigger screen. | 43 | 1,225 | `v1.0.8` |
-| [**sd-policeradar**](https://github.com/Samuels-Development/sd-policeradar) | A police radar: speeds in MPH and KMH and plates, ahead and behind. Lock it, keep a log of what it caught, and set BOLOs. | 70 | 1,172 | `v3.0.3` |
-| [**ox_inventory**](https://github.com/Samuels-Development/ox_inventory) |  | 52 | 1,165 | `v2.45.0` |
-| [**sd-cases**](https://github.com/Samuels-Development/sd-cases) |  | 31 | 496 | `v1.0.3` |
-| [**sd-signs**](https://github.com/Samuels-Development/sd-signs) | 3D channel-letter signs for FiveM. Type it, colour it, place it. 129 glyphs, 10 colours, matte or neon, up to 3 rows — colour is a runtime tint, so the whole palette is 258 models and ~5 MB. | 25 | 430 | `v1.1.0` |
-| [**sd-dialog**](https://github.com/Samuels-Development/sd-dialog) |  | 19 | 225 | `v1.0.0` |
-| [**sd-computers**](https://github.com/Samuels-Development/sd-computers) | SD OS for FiveM: a full desktop on any computer prop or location - mail, System Logs, Command Prompt hacking and a Business Manager | 22 | 222 | `v1.2.1` |
-| [**sd-waypoints**](https://github.com/Samuels-Development/sd-waypoints) |  | 12 | 205 | `v1.0.0` |
-| [**sd-itemspawner**](https://github.com/Samuels-Development/sd-itemspawner) | Admin item spawner for ox_inventory: every registered item in a searchable grid, per-item quantities, metadata editor, saved loadouts, and delivery to yourself, a player, nearby players or everyone online. | 11 | 192 | `v1.0.0` |
-| [**sd-policetape**](https://github.com/Samuels-Development/sd-policetape) |  | 9 | 154 | `v1.0.1` |
-| [**sd-levels**](https://github.com/Samuels-Development/sd-levels) | A comprehensive level/skill system with a nice UI. | 46 |  | `2.0.1` |
-| [**ox_target**](https://github.com/Samuels-Development/ox_target) |  | 44 |  |  |
-| [**sd_lib**](https://github.com/Samuels-Development/sd_lib) | The library under the rest: better base natives, and one way to talk to every framework and the popular resources around them. | 34 |  | `1.2.0` |
-| [**sd-parceltheft**](https://github.com/Samuels-Development/sd-parceltheft) |  | 23 |  | `1.0.6` |
-| [**sd-3dme**](https://github.com/Samuels-Development/sd-3dme) |  | 23 |  | `1.0.1` |
-| [**sd-vehcontrol**](https://github.com/Samuels-Development/sd-vehcontrol) |  | 21 |  | `1.0.2` |
-| [**sd-selfstorage**](https://github.com/Samuels-Development/sd-selfstorage) |  | 21 |  | `1.0.2` |
-| [**sd-fence**](https://github.com/Samuels-Development/sd-fence) |  | 20 |  |  |
-| [**sd-christmas**](https://github.com/Samuels-Development/sd-christmas) |  | 19 |  | `1.0.2` |
-| [**sd-objective**](https://github.com/Samuels-Development/sd-objective) |  | 17 |  |  |
-| [**qb-garbagejob**](https://github.com/Samuels-Development/qb-garbagejob) |  | 16 |  |  |
-| [**sd-notify**](https://github.com/Samuels-Development/sd-notify) |  | 16 |  | `1.0.0` |
-| [**sd-creator**](https://github.com/Samuels-Development/sd-creator) |  | 15 |  |  |
-| [**sd-reviews**](https://github.com/Samuels-Development/sd-reviews) |  | 15 |  | `1.0.0` |
-| [**sd-density**](https://github.com/Samuels-Development/sd-density) |  | 15 |  | `1.0.3` |
-| [**qb-menu**](https://github.com/Samuels-Development/qb-menu) |  | 12 |  |  |
-| [**sd-minesweeper**](https://github.com/Samuels-Development/sd-minesweeper) |  | 12 |  |  |
-| [**sd-pickup-bike**](https://github.com/Samuels-Development/sd-pickup-bike) |  | 11 |  |  |
-| [**ms-peds**](https://github.com/Samuels-Development/ms-peds) |  | 9 |  |  |
-| [**sd-phone-props**](https://github.com/Samuels-Development/sd-phone-props) |  | 8 |  |  |
-| [**sd-simonsays**](https://github.com/Samuels-Development/sd-simonsays) |  | 7 |  |  |
-| [**sd-speedlimiter**](https://github.com/Samuels-Development/sd-speedlimiter) |  | 5 |  | `1.0.0` |
-| [**sd-phone-app-templates**](https://github.com/Samuels-Development/sd-phone-app-templates) | App templates for the sd-phone custom app system. Build phone apps with plain JS, React, Vue or Svelte; lb-phone app compatible. | 5 |  |  |
-| [**sd-tablet-props**](https://github.com/Samuels-Development/sd-tablet-props) | Streamed in-hand tablet props for sd-tablet, one model per frame colour | 4 |  |  |
-| [**sd-locales**](https://github.com/Samuels-Development/sd-locales) |  | 1 |  |  |
-| [**sd-tracers**](https://github.com/Samuels-Development/sd-tracers) |  | 1 |  |  |
-| [**sd-computers-app-templates**](https://github.com/Samuels-Development/sd-computers-app-templates) | App templates for the sd-computers custom app system. Build desktop apps with plain JS, React, Vue or Svelte, plus Wrenchworks, a full example. | 0 |  |  |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Samuels-Development/.github/main/profile/assets/stars-dark.svg">
+  <img src="https://raw.githubusercontent.com/Samuels-Development/.github/main/profile/assets/stars-light.svg" width="100%" alt="Stars across the public repositories, over time">
+</picture>
 
-</details>
-<!-- resources:end -->
+### Commits in the last year
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Samuels-Development/.github/main/profile/assets/commits-dark.svg">
+  <img src="https://raw.githubusercontent.com/Samuels-Development/.github/main/profile/assets/commits-light.svg" width="100%" alt="Commits to the public repositories in the last year, by day">
+</picture>
 
 ## Partners
 
 **[Fivemanage](https://refer.fivemanage.com/samuel)** hosts the photos, videos and voice notes taken on sd-phone. A free Media token is all it needs.
-
-<!-- updated:start -->
-<sub>Numbers from GitHub, 27 October 2026.</sub>
-<!-- updated:end -->
