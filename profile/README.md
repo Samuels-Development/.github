@@ -2,7 +2,7 @@
      The rest is written by hand. -->
 
 I make FiveM resources for Qbox, QBCore, ESX, ox_core and ND, and everything on this page is free. sd-phone is the
-big one, and sd-tablet and sd-computers share its accounts and data. The rest are scripts and tools I've built along
+big one, and sd-tablet and sd-computers share its accounts and data. The rest are [scripts and tools](https://github.com/orgs/Samuels-Development/repositories) I've built along
 the way.
 
 The paid scripts are on the store, and the Discord is the place for questions.
@@ -34,46 +34,6 @@ working, and lb-phone and YSeries players can bring their numbers, chats and pho
 </td>
 </tr>
 </table>
-
-## Everything else
-
-### Around the phone
-
-- [**sd-phone-props**](https://github.com/Samuels-Development/sd-phone-props) streams the phone in the player's hand, one model per colour, plain or foldable. [**sd-tablet-props**](https://github.com/Samuels-Development/sd-tablet-props) does the same for the tablet.
-- [**sd-phone-app-templates**](https://github.com/Samuels-Development/sd-phone-app-templates) and [**sd-computers-app-templates**](https://github.com/Samuels-Development/sd-computers-app-templates) are starting points for your own apps, in plain JS, React, Vue or Svelte.
-
-### Jobs, crime and things to do
-
-- [**sd-policeradar**](https://github.com/Samuels-Development/sd-policeradar) reads the speed and plate of the cars ahead and behind, with a lock, a log and BOLOs.
-- [**sd-policetape**](https://github.com/Samuels-Development/sd-policetape) is police tape that sags, sways in the wind and tears when a car drives through it.
-- [**sd-parceltheft**](https://github.com/Samuels-Development/sd-parceltheft) lets players steal parcels off doorsteps and open them for whatever's inside.
-- [**sd-cases**](https://github.com/Samuels-Development/sd-cases) gives out cases from heists and robberies, opened on a spinning wheel.
-- [**sd-selfstorage**](https://github.com/Samuels-Development/sd-selfstorage) rents out storage units, with payments that renew themselves and keys you can share.
-- [**sd-christmas**](https://github.com/Samuels-Development/sd-christmas) hides candy canes in over 150 places around the city, and puts Santa in it.
-- [**sd-minesweeper**](https://github.com/Samuels-Development/sd-minesweeper) is Minesweeper played for money, and [**sd-simonsays**](https://github.com/Samuels-Development/sd-simonsays) is Simon Says.
-
-### For players
-
-- [**sd-signs**](https://github.com/Samuels-Development/sd-signs) builds 3D letter signs: type it, colour it, place it.
-- [**sd-vehcontrol**](https://github.com/Samuels-Development/sd-vehcontrol) is one menu for seats, engine, doors, windows and lights.
-- [**sd-speedlimiter**](https://github.com/Samuels-Development/sd-speedlimiter) holds your car at the speed you're doing, without fighting the handling.
-- [**sd-waypoints**](https://github.com/Samuels-Development/sd-waypoints) stands a 3D marker on your map waypoint, with the distance to it.
-- [**sd-3dme**](https://github.com/Samuels-Development/sd-3dme) shows /me, /do, /med and /animal over the player's head.
-- [**sd-levels**](https://github.com/Samuels-Development/sd-levels) tracks skills and levels, and shows them.
-- [**sd-reviews**](https://github.com/Samuels-Development/sd-reviews) lets players review businesses and places.
-
-### For building a server
-
-- [**sd_lib**](https://github.com/Samuels-Development/sd_lib) puts the frameworks and the popular resources behind one set of functions.
-- [**sd-zonecreator**](https://github.com/Samuels-Development/sd-zonecreator) draws zones on a map, previews them in 3D and exports them in the format you need.
-- [**sd-itemspawner**](https://github.com/Samuels-Development/sd-itemspawner) spawns any ox_inventory item, to you, a player, everyone nearby or the whole server.
-- [**sd-density**](https://github.com/Samuels-Development/sd-density) sets how many people and cars there are, by zone and by time of day.
-- [**sd-dialog**](https://github.com/Samuels-Development/sd-dialog) turns talking to an NPC into a scene, with camera moves and options.
-- [**sd-notify**](https://github.com/Samuels-Development/sd-notify) and [**sd-objective**](https://github.com/Samuels-Development/sd-objective) are notifications and an objective tracker, for your own scripts.
-- [**sd-creator**](https://github.com/Samuels-Development/sd-creator) writes new items and jobs from a form in the game.
-- [**ox_inventory**](https://github.com/Samuels-Development/ox_inventory) is a rebuilt interface for ox_inventory, with equipment slots, backpacks and rarities. [**ox_target**](https://github.com/Samuels-Development/ox_target) targets with the cursor instead of the eye.
-
-The older and smaller ones are in the [list of repositories](https://github.com/orgs/Samuels-Development/repositories).
 
 ## Activity
 
