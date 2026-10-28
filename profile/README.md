@@ -78,7 +78,7 @@ The older and smaller ones are in the [list of repositories](https://github.com/
 ## Activity
 
 <!-- numbers:start -->
-62,951 downloads and 1,150 stars across 39 resources, and 1,215 commits in the last year.
+62,956 downloads and 1,150 stars across 39 resources, and 1,215 commits in the last year.
 <!-- numbers:end -->
 
 ### Stars
