@@ -149,7 +149,7 @@ async function draw(name, width, height, label, body) {
     for (const [mode, theme] of Object.entries(THEMES)) {
         const svg =
             `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(label)}">` +
-            `<title>${esc(label)}</title><style>text{font-family:${FONT};font-size:12px}</style>${body(theme)}</svg>\n`;
+            `<title>${esc(label)}</title><style>text{font-family:${FONT};font-size:15px}</style>${body(theme)}</svg>\n`;
         await writeFile(new URL(`${name}-${mode}.svg`, ASSETS), svg);
     }
 }
@@ -165,7 +165,7 @@ function niceStep(max, count) {
 async function starsChart(history) {
     const W = 880;
     const H = 230;
-    const L = 44;
+    const L = 52;
     const R = W - 12;
     const T = 22;
     const B = H - 30;
@@ -190,17 +190,17 @@ async function starsChart(history) {
 
         for (let v = 0; v <= top; v += step) {
             body += `<line x1="${L}" y1="${r(y(v))}" x2="${R}" y2="${r(y(v))}" stroke="${theme.grid}" stroke-width="1"/>`;
-            body += text(L - 8, y(v) + 4, compact(v), theme.text, 'end');
+            body += text(L - 10, y(v) + 5, compact(v), theme.text, 'end');
         }
 
         for (let year = new Date(t0).getUTCFullYear() + 1; year <= new Date(t1).getUTCFullYear(); year++) {
-            body += text(x(Date.UTC(year, 0, 1)), B + 20, String(year), theme.text, 'middle');
+            body += text(x(Date.UTC(year, 0, 1)), B + 24, String(year), theme.text, 'middle');
         }
 
         body += `<path d="${path}H${r(ex)}V${B}H${L}z" fill="${theme.fill}" fill-opacity="${theme.fillOpacity}"/>`;
         body += `<path d="${path}" fill="none" stroke="${theme.line}" stroke-width="2" stroke-linejoin="round"/>`;
         body += `<circle cx="${r(ex)}" cy="${r(ey)}" r="4.5" fill="${theme.line}" stroke="${theme.ring}" stroke-width="2"/>`;
-        body += text(ex - 10, ey - 4, full(total), theme.text, 'end');
+        body += text(ex - 10, ey - 6, full(total), theme.text, 'end');
 
         return body;
     });
@@ -211,9 +211,9 @@ async function commitsChart(commits) {
     const W = 880;
     const CELL = 13;
     const STEP = 16;
-    const X0 = 34;
-    const Y0 = 20;
-    const H = Y0 + STEP * 7 + 26;
+    const X0 = 44;
+    const Y0 = 26;
+    const H = Y0 + STEP * 7 + 32;
 
     const now = new Date();
     const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
@@ -237,7 +237,7 @@ async function commitsChart(commits) {
             const before = new Date(start - DAY).getUTCMonth();
 
             if ((week === 0 || month !== before) && week - labelled >= 3 && week < 50) {
-                body += text(X0 + week * STEP, Y0 - 8, MONTHS[month], theme.text);
+                body += text(X0 + week * STEP, Y0 - 9, MONTHS[month], theme.text);
                 labelled = week;
             }
 
@@ -250,16 +250,16 @@ async function commitsChart(commits) {
         }
 
         ['Mon', 'Wed', 'Fri'].forEach((name, i) => {
-            body += text(X0 - 8, Y0 + (i * 2 + 1) * STEP + 10, name, theme.text, 'end');
+            body += text(X0 - 10, Y0 + (i * 2 + 1) * STEP + 11, name, theme.text, 'end');
         });
 
-        const ly = Y0 + STEP * 7 + 10;
-        const lx = X0 + 51 * STEP + CELL - 5 * STEP - 30;
-        body += text(lx - 6, ly + 11, 'Less', theme.text, 'end');
+        const ly = Y0 + STEP * 7 + 12;
+        const lx = X0 + 51 * STEP + CELL - 5 * STEP - 40;
+        body += text(lx - 6, ly + 12, 'Less', theme.text, 'end');
         theme.cells.forEach((fill, i) => {
             body += `<rect x="${lx + i * STEP}" y="${ly}" width="${CELL}" height="${CELL}" rx="2" fill="${fill}"/>`;
         });
-        body += text(lx + 5 * STEP + 3, ly + 11, 'More', theme.text);
+        body += text(lx + 5 * STEP + 3, ly + 12, 'More', theme.text);
 
         return body;
     });

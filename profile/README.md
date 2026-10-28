@@ -7,8 +7,8 @@ the way.
 
 The paid scripts are on the store, and the Discord is the place for questions.
 
-[![Store](https://img.shields.io/badge/Store-fivem.samueldev.shop-F0E155?style=for-the-badge&labelColor=101114)](https://fivem.samueldev.shop)
-[![Docs](https://img.shields.io/badge/Docs-docs.samueldev.shop-94DD0C?style=for-the-badge&labelColor=101114)](https://docs.samueldev.shop)
+[![Store](https://img.shields.io/badge/Store-F0E155?style=for-the-badge)](https://fivem.samueldev.shop)
+[![Docs](https://img.shields.io/badge/Docs-94DD0C?style=for-the-badge)](https://docs.samueldev.shop)
 [![Discord](https://img.shields.io/discord/842045164951437383?style=for-the-badge&label=Discord&logo=discord&logoColor=white&labelColor=101114&color=5865F2)](https://discord.gg/FzPehMQaBQ)
 
 <a href="https://github.com/Samuels-Development/sd-phone"><img src="assets/sd-phone.webp" width="100%" alt="sd-phone: the home screen in front of a wall of app screens"></a>
@@ -78,7 +78,7 @@ The older and smaller ones are in the [list of repositories](https://github.com/
 ## Activity
 
 <!-- numbers:start -->
-62,956 downloads and 1,150 stars across 39 resources, and 1,215 commits in the last year.
+62,962 downloads and 1,150 stars across 39 resources, and 1,215 commits in the last year.
 <!-- numbers:end -->
 
 ### Stars
