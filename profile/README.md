@@ -38,7 +38,7 @@ working, and lb-phone and YSeries players can bring their numbers, chats and pho
 ## Activity
 
 <!-- numbers:start -->
-70,097 downloads and 1,172 stars across 42 resources, and 1,237 commits in the last year.
+70,305 downloads and 1,185 stars across 42 resources, and 1,251 commits in the last year.
 <!-- numbers:end -->
 
 ### Stars
