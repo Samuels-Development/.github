@@ -11,7 +11,7 @@ The paid scripts are on the store, and the Discord is the place for questions.
 [![Docs](https://img.shields.io/badge/Docs-94DD0C?style=for-the-badge)](https://docs.samueldev.shop)
 [![Discord](https://img.shields.io/discord/842045164951437383?style=for-the-badge&label=Discord&logo=discord&logoColor=white&labelColor=101114&color=5865F2)](https://discord.gg/FzPehMQaBQ)
 
-<a href="https://github.com/Samuels-Development/sd-phone"><img src="assets/sd-phone.webp" width="100%" alt="sd-phone: the home screen in front of a wall of app screens"></a>
+<a href="https://github.com/Samuels-Development/sd-phone"><img src="assets/sd-phone.webp" width="100%" alt="sd-phone: regular, Slate and foldable phones in several colours, two of them in cases, with the home screen in front"></a>
 
 **[sd-phone](https://github.com/Samuels-Development/sd-phone)** is a phone with over 50 apps: calls, messages, mail,
 maps, banking, social apps and games. Scripts written for lb-phone, qs-smartphone, gksphone, roadphone or YSeries keep
